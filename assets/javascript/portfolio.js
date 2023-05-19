@@ -10,20 +10,14 @@ $(document).ready(() => {
   const links = [
     {
       name: 'my discord',
-      link: 'discord.com/users/745631824163766412',
+      link: 'discord.com/users/901097079659700225',
     },
-    {
-      name: 'spotify',
-      link: 'open.spotify.com/user/31v42o74y7gq2krt6byixmiboebe?si=f4cd8992f55d42ab',
-    },
+    
     {
       name: 'feds.lol',
-      link: 'feds.lol/ceo',
-    },
-       {
-      name: 'last.fm',
-      link: 'www.last.fm/user/zxqq',
+      link: 'feds.lol/bankroll',
     }
+    
   ];
 
   for (let i in links) {
@@ -42,7 +36,7 @@ $(document).ready(() => {
     app.shouldIgnoreVideo = true;
   }
 
-  app.titleChanger(['z', 'zu', 'zur', 'zurl', 'zurly', 'zurly $']);
+  app.titleChanger(['j', 'ja', 'jam', 'jama', 'jamar', 'jamari $']);
   app.iconChanger(['assets/icons/rose1.jpg', 'assets/icons/rose2.jpg', 'assets/icons/rose3.jpg', 'assets/icons/rose4.jpg', 'assets/icons/rose5.jpg', 'assets/icons/rose6.jpg', 'assets/icons/rose7.jpg', 'assets/icons/rose7.jpg', 'assets/icons/rose1.jpg']);
 });
 
